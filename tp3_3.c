@@ -4,11 +4,11 @@
 
 int main(){
     char *V[5];
-    char **Buffer;
+    // char **Buffer;
     // Buffer = (char**) malloc(5 * sizeof(char *));
 
     char* Buff;
-    char* Nombre;
+    // char* Nombre;
 
     // Nombre = (char*) malloc(100 * sizeof(char));
     //Ingresa los nombres por pantalla
