@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <time.h>
 
 void cargarMatriz(int matriz[5][12]);
 void mostrarMatriz(int matriz[5][12]);
@@ -9,6 +9,7 @@ void mostrarMinimo(int matriz[5][12]);
 
 int main(){
     //Notacion subindexada
+    srand (time(NULL));
     int matriz[5][12];
 
     cargarMatriz(matriz);
@@ -16,6 +17,7 @@ int main(){
     promedioGananciasPorAnio(matriz);
     mostrarMaximo(matriz);
     mostrarMinimo(matriz);
+    
     //Notacion indexada
     // int* puntero;
     // int matriz[5][12];
